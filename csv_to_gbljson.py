@@ -33,6 +33,16 @@ for row in reader: #row is a dictionary
         if key in multiple_dict:
             for fieldname in multiple_dict[key]:
                 small_dict[fieldname] = val.split('|')
+        if key == "Dublin Core:Coverage":
+            val = val.split(',')
+            if len(val) == 4:
+                west = val[0]
+                south = val[1]
+                east = val[2]
+                north = val[3]
+                small_dict["solr_geom"] = "ENVELOPE("+west+","+east+","+north+","+south+")"
+            else:
+                small_dict["solr_geom"] = "NULL"
     iden = row['Dublin Core:Identifier']
     filename = iden + ".json"
     with open("json/"+filename, 'w') as jsonfile:
