@@ -40,9 +40,13 @@ for row in reader: #row is a dictionary
                 south = val[1]
                 east = val[2]
                 north = val[3]
+                centerlat = (float(north)+float(south))/2
+                centerlong = (float(east)+float(west))/2
                 small_dict["solr_geom"] = "ENVELOPE("+west+","+east+","+north+","+south+")"
+                small_dict["b1g_centroid_ss"] = str(centerlat) + "," + str(centerlong)
             else:
                 small_dict["solr_geom"] = "NULL"
+                small_dict["b1g_centroid_ss"] = "NULL"
     iden = row['Dublin Core:Identifier']
     filename = iden + ".json"
     with open("json/"+filename, 'w') as jsonfile:
