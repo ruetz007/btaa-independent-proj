@@ -25,8 +25,13 @@ reader = csv.DictReader(csvfile)
 date_modified = datetime.today().strftime('%Y-%m-%d')
 
 for row in reader: #row is a dictionary
+    code = ""
     small_dict = {"geoblacklight_version":"1.0","dc_rights_s":"Public","layer_modified_dt":date_modified}
     for key,val in row.items():
+        if key == "Code":
+            code = val
+            if not os.path.exists("json/" + val):
+                os.mkdir("json/" + val)
         if key in single_dict:
             for fieldname in single_dict[key]:
                 small_dict[fieldname] = val
@@ -49,5 +54,5 @@ for row in reader: #row is a dictionary
                 small_dict["b1g_centroid_ss"] = "NULL"
     iden = row['Dublin Core:Identifier']
     filename = iden + ".json"
-    with open("json/"+filename, 'w') as jsonfile:
+    with open("json/"+code+"/"+filename, 'w') as jsonfile:
         json.dump(small_dict,jsonfile,indent=2)

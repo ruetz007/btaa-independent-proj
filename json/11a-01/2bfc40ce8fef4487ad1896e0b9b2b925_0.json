@@ -1,0 +1,23 @@
+{
+  "geoblacklight_version": "1.0", 
+  "b1g_centroid_ss": "40.8113277007,-81.3665095025", 
+  "dct_temporal_sm": [
+    ""
+  ], 
+  "layer_geom_type_s": "Vector", 
+  "layer_modified_dt": "2019-09-02", 
+  "dct_spatial_sm": [
+    "Ohio, United States"
+  ], 
+  "dc_identifier_s": "2bfc40ce8fef4487ad1896e0b9b2b925_0", 
+  "dct_provenance_s": "Ohio State", 
+  "dc_title_s": "PLSS Sections: Stark County, Ohio, United States", 
+  "dct_issued_s": "2019-05-31", 
+  "solr_geom": "ENVELOPE(-81.65143832216818,-81.08158068273819,40.988042100402794,40.6346133010841)", 
+  "dct_isPartOf_sm": [
+    "State Agencies Geospatial Data"
+  ], 
+  "solr_year_i": "2019", 
+  "dc_rights_s": "Public", 
+  "layer_slug_s": "2bfc40ce8fef4487ad1896e0b9b2b925_0"
+}
