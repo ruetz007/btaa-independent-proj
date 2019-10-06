@@ -1,23 +1,23 @@
 {
-  "geoblacklight_version": "1.0", 
-  "b1g_centroid_ss": "40.8111779456,-81.3666709489", 
-  "dct_temporal_sm": [
-    ""
-  ], 
-  "layer_geom_type_s": "Vector", 
-  "layer_modified_dt": "2019-09-04", 
-  "dct_spatial_sm": [
-    "Ohio, United States"
-  ], 
-  "dc_identifier_s": "1d8f55a419d24e5a99d6508437acf94c_0", 
-  "dct_provenance_s": "Ohio State", 
-  "dc_title_s": "NHD Waterways: Stark County, Ohio, United States", 
-  "dct_issued_s": "2019-05-31", 
-  "solr_geom": "ENVELOPE(-81.6512611041714,-81.08208079369942,40.993226706549315,40.62912918462832)", 
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2019-10-06",
+  "dct_issued_s": "2019-05-31",
   "dct_isPartOf_sm": [
     "State Agencies Geospatial Data"
-  ], 
-  "solr_year_i": "2019", 
-  "dc_rights_s": "Public", 
-  "layer_slug_s": "1d8f55a419d24e5a99d6508437acf94c_0"
+  ],
+  "dct_spatial_sm": [
+    "Ohio, United States"
+  ],
+  "dct_temporal_sm": [
+    ""
+  ],
+  "dct_provenance_s": "Ohio State",
+  "dc_title_s": "NHD Waterways: Stark County, Ohio, United States",
+  "solr_year_i": "2019",
+  "layer_slug_s": "1d8f55a419d24e5a99d6508437acf94c_0",
+  "dc_identifier_s": "1d8f55a419d24e5a99d6508437acf94c_0",
+  "solr_geom": "ENVELOPE(-81.6512611041714,-81.08208079369942,40.993226706549315,40.62912918462832)",
+  "b1g_centroid_ss": "40.81117794558882,-81.36667094893541",
+  "layer_geom_type_s": "Vector"
 }
