@@ -1,0 +1,61 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2019-10-15",
+  "layer_slug_s": "00f2ff16-55c9-4389-9451-cdf0c8c88d22",
+  "dc_identifier_s": "00f2ff16-55c9-4389-9451-cdf0c8c88d22",
+  "b1g_status_s": "Active",
+  "b1g_code_s": "03d-01",
+  "dct_isPartOf_sm": [
+    "5f08f194-e1e3-4c20-8294-d92b0bb7320a"
+  ],
+  "b1g_dateAccessioned_s": "5/21/2019",
+  "b1g_dateRetired_s": "",
+  "suppressed_b": "FALSE",
+  "dct_accrualMethod_s": "",
+  "dc_title_s": "Topographical map of Decatur County Iowa",
+  "dct_alternativeTitle_sm": [
+    ""
+  ],
+  "dc_description_s": "",
+  "b1g_genre_sm": [
+    "Maps"
+  ],
+  "dc_subject_sm": [
+    "Atlases"
+  ],
+  "b1g_keyword_sm": [
+    "Iowa Counties Historic Atlases"
+  ],
+  "dct_issued_s": "1904",
+  "dct_temporal_sm": [
+    "1904"
+  ],
+  "solr_year_i": "1904",
+  "dct_spatial_sm": [
+    "Iowa"
+  ],
+  "solr_geom": "ENVELOPE(-96.639485,-90.140061,43.501196,40.375437)",
+  "b1g_centroid_ss": "41.9383165,-93.38977299999999",
+  "dct_provenance_s": "Iowa",
+  "dc_publisher_sm": [
+    "Iowa Publishing Co."
+  ],
+  "dc_creator_sm": [
+    "Huebinger, Melchoir"
+  ],
+  "dc_language_sm": [
+    ""
+  ],
+  "dc_format_s": "JPEG",
+  "dc_type_sm": [
+    "Image"
+  ],
+  "layer_geom_type_s": "Image",
+  "b1g_image_ss": "https://digital.lib.uiowa.edu/utils/getdownloaditem/collection/atlases/id/63/type/singleitem/filename/image.jp2/width/8320/height/5698/mapsto/image/filesize/82281747/title/30263/size/fullSize",
+  "layer_id_s": "",
+  "b1g_geonames_sm": [
+    ""
+  ],
+  "dct_references_s": "{\"http://schema.org/url\":\"http://digital.lib.uiowa.edu:80/cdm/ref/collection/atlases/id/63\",\"http://schema.org/downloadUrl\":\"https://digital.lib.uiowa.edu/utils/getdownloaditem/collection/atlases/id/63/type/singleitem/filename/image.jp2/width/8320/height/5698/mapsto/image/filesize/82281747/title/30263/size/fullSize\"}"
+}

@@ -1,0 +1,61 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2019-10-15",
+  "layer_slug_s": "01681161-d9a2-4603-a2da-b0e9dcd5538d",
+  "dc_identifier_s": "01681161-d9a2-4603-a2da-b0e9dcd5538d",
+  "b1g_status_s": "Active",
+  "b1g_code_s": "05d-02",
+  "dct_isPartOf_sm": [
+    "05d-02"
+  ],
+  "b1g_dateAccessioned_s": "3/29/2019",
+  "b1g_dateRetired_s": "",
+  "suppressed_b": "FALSE",
+  "dct_accrualMethod_s": "",
+  "dc_title_s": "Hudson Mountains: World Aeronautical Chart",
+  "dct_alternativeTitle_sm": [
+    ""
+  ],
+  "dc_description_s": "",
+  "b1g_genre_sm": [
+    "Maps"
+  ],
+  "dc_subject_sm": [
+    "Aeronautical charts"
+  ],
+  "b1g_keyword_sm": [
+    "John R. Borchert Map Library"
+  ],
+  "dct_issued_s": "1952",
+  "dct_temporal_sm": [
+    "1952"
+  ],
+  "solr_year_i": "1952",
+  "dct_spatial_sm": [
+    "Antarctica"
+  ],
+  "solr_geom": "ENVELOPE(-180,180,-63.27066049,-90)",
+  "b1g_centroid_ss": "-76.635330245,0.0",
+  "dct_provenance_s": "Minnesota",
+  "dc_publisher_sm": [
+    "USAF Aeronautical Chart and Information Center"
+  ],
+  "dc_creator_sm": [
+    "USAF Aeronautical Chart and Information Center"
+  ],
+  "dc_language_sm": [
+    "English"
+  ],
+  "dc_format_s": "JPEG",
+  "dc_type_sm": [
+    "Image"
+  ],
+  "layer_geom_type_s": "Image",
+  "b1g_image_ss": "",
+  "layer_id_s": "",
+  "b1g_geonames_sm": [
+    "https://sws.geonames.org/6255152/"
+  ],
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.umn.edu/241519\"}"
+}
